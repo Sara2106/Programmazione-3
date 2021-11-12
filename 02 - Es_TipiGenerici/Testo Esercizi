@@ -16,18 +16,20 @@ oggetti di tipo disomogeneo (es. Rectangle AND Triangle).
 
 Per lo sviluppo:
 
-si riutilizzi la gerarchia di Poligono che era stata sviluppata nei precedenti esercizi (abstract class Polygon, class Rectangle, class Triangle e così via).
-si definisca il tipo generico di Geometries in modo tale da permettere di gestire solo figure geometriche (e non, per esempio, stringhe di caratteri).
-la classe Geometries deve offrire i seguenti metodi:
-public int getNumElements: restituisce il numero di elementi che sono stati inseriti nella lista dei poligoni di Geometries
-public boolean add: permette di inserire un nuovo elemento nella lista dei poligoni
-public void printAreas: stampa il valore delle aree di ciascun elemento della lista di poligoni
+  - si riutilizzi la gerarchia di Poligono che era stata sviluppata nei precedenti esercizi (abstract class Polygon, class Rectangle, class Triangle e così via).
+  - si definisca il tipo generico di Geometries in modo tale da permettere di gestire solo figure geometriche (e non, per esempio, stringhe di caratteri).
+  - la classe Geometries deve offrire i seguenti metodi:
+    - public int getNumElements: restituisce il numero di elementi che sono stati inseriti nella lista dei poligoni di Geometries
+    - public boolean add: permette di inserire un nuovo elemento nella lista dei poligoni
+    - public void printAreas: stampa il valore delle aree di ciascun elemento della lista di poligoni
+
 Esercizio 3
 Sviluppare la classe Calculator, che offre i seguenti metodi (statici) per fare calcoli su liste generiche di elementi di tipo numerico:
 
-un metodo print() che, data una lista generica di elementi passata come parametro, visualizza a video i valori di tali elementi
-un metodo sum() che, data una lista generica di elementi passata come parametro, restituisce la somma dei valori degli elementi della lista
-un metodo max() che, data una lista generica di elementi passata come parametro, restituisce il valore massimo della lista.
+  - un metodo print() che, data una lista generica di elementi passata come parametro, visualizza a video i valori di tali elementi
+  - un metodo sum() che, data una lista generica di elementi passata come parametro, restituisce la somma dei valori degli elementi della lista
+  - un metodo max() che, data una lista generica di elementi passata come parametro, restituisce il valore massimo della lista.
+
 Sviluppare una semplice applicazione di test che crea liste di elementi (per es., una lista di Integer, una di Double) e invoca i metodi di Calculator per 
 operare su di esse. Verificate i controlli di tipo anche passando ai metodi liste di elementi di tipo sbagliato.
 
